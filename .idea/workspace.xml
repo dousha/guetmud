@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32174f84-b3a1-48c2-a5be-9fae9f680c50" name="Default" comment="添加了 Netty 库，同时添加了最小 Netty 服务器代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/netty.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/guet/gnuforce/DiscardHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/guet/gnuforce/DiscardServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/guet/gnuforce/ServerMain.java" />
+    <list default="true" id="32174f84-b3a1-48c2-a5be-9fae9f680c50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guetmud.iml" afterPath="$PROJECT_DIR$/guetmud.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -246,6 +240,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510430415686</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加了 Netty 库，同时添加了最小 Netty 服务器代码">
+      <created>1510572373227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510572373227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
