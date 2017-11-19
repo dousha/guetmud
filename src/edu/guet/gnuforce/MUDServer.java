@@ -9,7 +9,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-public class DiscardServer {
+public class MUDServer {
 
 	public void run() throws Exception{
 		EventLoopGroup group = new NioEventLoopGroup();
@@ -19,7 +19,7 @@ public class DiscardServer {
 			b.group(group, inferior).channel(NioServerSocketChannel.class).childHandler(new ChannelInitializer<SocketChannel>() {
 				@Override
 				public void initChannel(SocketChannel ch){
-					ch.pipeline().addLast(new DiscardHandler());
+					ch.pipeline().addLast(new MUDHandler());
 				}
 			}).option(ChannelOption.SO_BACKLOG, 128).childOption(ChannelOption.SO_KEEPALIVE, true);
 
